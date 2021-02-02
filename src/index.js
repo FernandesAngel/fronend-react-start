@@ -1,5 +1,7 @@
 // yarn webpack --mode development
+import React from 'react';
+import { render } from 'react-dom';
 
-import { soma } from './soma';
+import App from './App';
 
-console.log(soma(1,3));
+render(<App />, document.getElementById('app'));
